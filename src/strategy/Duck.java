@@ -13,7 +13,7 @@ public abstract class Duck {
 
     public abstract void display();
 
-    // methods fly() and quack() are different in every realisation, so we delegate them to interface methods
+    // methods fly() and quack() are different in every implementation, so we delegate them to interface methods
     public void fly() {
         flyBehavior.fly();
     }

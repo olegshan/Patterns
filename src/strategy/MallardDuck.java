@@ -6,7 +6,7 @@ package strategy;
 public class MallardDuck extends Duck {
 
     public MallardDuck() {
-        // Mallard Duck can fly and quack, so we choose corresponding realisation
+        // Mallard Duck can fly and quack, so we choose corresponding implementation
         quackBehavior = new Quack();
         flyBehavior = new FlyWithWings();
     }
